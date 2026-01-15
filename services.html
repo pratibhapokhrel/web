@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header class="shadow-lg sticky z-50 top-0 bg-white">
@@ -39,14 +40,14 @@
         </div>
     </div>
 
-    <div class="text-center pt-[50px]">
+    <div class="text-center pt-[50px]" data-aos="fade-up">
         <h1 class=" text-[#1E3A5F] text-[45px] font-bold">What We Offer</h1>
         <p class="text-[#6C757D] text-[18px]">
             Comprehensive services to support your study abroad journey from start to finish
         </p>
     </div>
 
-    <div class="grid grid-cols-3 gap-[32px] p-[40px] pt-[80px] text-center px-[115px] pb-[110px]">
+    <div class="grid grid-cols-3 gap-[32px] p-[40px] pt-[80px] text-center px-[115px] pb-[110px]" data-aos="fade-up">
         <div class="shadow-lg rounded-xl pt-[15px] pb-[8px] h-[380px] w-full py-[20px] hover:border-1 hover:border-red-300 group">
             <i class="fa-solid fa-graduation-cap text-[50px] text-white py-[20px] group-hover:text-[orangered] group-hover:rotate-y-[180deg] duration-300 pt-[25px] bg-[#1E3A5F] h-[80px] w-[80px] flex items-center rounded-full"></i>
             <h2 class="text-[#1E3A5F] text-[25px] pt-5 font-semibold">Career Counselling</h2>
@@ -208,7 +209,10 @@
         <i class="fa-brands fa-whatsapp text-[40px]"></i>
     </a>
 
-
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 </html>
