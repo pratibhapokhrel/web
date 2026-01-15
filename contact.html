@@ -41,44 +41,203 @@
         </div>
     </div>
 
-    <div class="pt-[60px] px-[120px]">
-        <div class="grid grid-cols-3">
-            <div class="p-[20px] shadow-lg rounded-xl overflow-hidden col-span-2">
-                    <h2 class="text-[30px] text-[#1E3A5F] font-semibold pb-[25px]">Send Us a Message</h2>
-                <form action="">
-                    <div class="grid grid-cols-2 gap-6">
-                        <div>
-                            <label for="name">Full Name*</label>
-                            <input type="text" placeholder="Your Full Name" id="name" name="full_name"
-                                class="w-full px-3 py-1 border border-gray-300 rounded hover:border-red-200 duration-[200]">
+
+    <div class="grid grid-cols-3 px-[90px] mx-3 gap-8">
+    
+        <div class="pt-[60px] col-span-2">
+            <div class="grid grid-cols-2 h-[620px]">
+                <div class="p-[20px] shadow-lg rounded-xl w-full col-span-2">
+                        <h2 class="text-[30px] text-[#1E3A5F] font-semibold pb-[25px]">Send Us a Message</h2>
+                    <form action="">
+                        <div class="grid grid-cols-2 gap-6">
+                            <div>
+                                <label for="name">Full Name*</label>
+                                <input type="text" placeholder="Your Full Name" id="name" name="full_name"
+                                    class="w-full px-3 py-1 border border-gray-300 rounded hover:border-red-200 duration-[200]">
+                            </div>
+                            <div>
+                                <label for="email">Email Address*</label>
+                                <input type="text" placeholder="Your Email Address" id="email" name="email"
+                                    class="w-full px-3 py-1 border border-gray-300 rounded">
+                            </div>
+                            <div>
+                                <label for="phone"> Phone Number*</label>
+                                <input type="text" placeholder="Your Phone Number" id="phone" name="phone"
+                                    class="w-full px-3 py-1 border border-gray-300 rounded">
+                            </div>
+                            <div>
+                                <label for="wnum">Whatsapp Number *</label>
+                                <input type="text" placeholder="Your Whatsapp Number" id="wnum" name="wphone"
+                                    class="w-full px-3 py-1 border border-gray-300 rounded">
+                            </div>
+                            <div class="col-span-2">
+                                <label for="country">Interested Country</label>
+                                <select class="w-full border border-gray-300 rounded-lg px-3 py-1" id="country">
+                                    <option class="text-gray-800">Select a Country</option>
+                                    <option class="text-gray-800">Australia</option>
+                                    <option class="text-gray-800">USA</option>
+                                    <option class="text-gray-800">UK</option>
+                                    <option class="text-gray-800">Canada</option>
+                                    <option class="text-gray-800">South Korea</option>
+                                    <option class="text-gray-800">Japan</option>
+                                    <option class="text-gray-800">Finland</option>
+                                    <option class="text-gray-800">Germany</option>
+                                    <option class="text-gray-800">Malta</option>
+                                </select>
+                            </div>
+                            <div class="col-span-2">
+                                <label for="message">Your Message*</label>
+                                    <textarea placeholder="How can we help you?" id="message" rows="5" name="message"
+                                    class="w-full px-3 py-2 border border-gray-300 rounded"></textarea>
+                            </div>
                         </div>
-                        <div>
-                            <label for="email">Email Address*</label>
-                            <input type="text" placeholder="Your Email Address" id="email" name="email"
-                                class="w-full px-3 py-1 border border-gray-300 rounded">
+
+                    </form>
+                    <div class="h-[60px] py-[30px]">
+                        <a href="" class="bg-[#C0392B] rounded-3xl text-white  px-4 py-2 text-center text-[20px] hover:shadow-lg hover:translate-y-[2px] duration-[100] font-semibold">Send Message</a>
+                     </div>
+                </div>
+            </div>
+        </div> 
+
+
+        <div class="pt-[60px]">
+            <div class="p-[10px] h-[620px] bg-[#1E3A5F] shadow-lg rounded-xl overflow-hidden overflow-hidden">
+                <h2 class="text-[30px] py-[30px] text-white font-semibold pb-[25px] px-4">Get In Touch</h2>
+
+                <div class="flex flex-col gap-5 px-8">
+
+                    <div class="flex gap-4">
+                        <span class="text-orange-400 text-[25px]"><i class="fa-solid fa-location-dot text-[orangered]"></i></span>
+                        <div class="text-white">
+                            <h3 class="text-lg font-semibold">Our Location</h3>
+                            <p class="text-sm">Kalanki-14, Kathmandu, Nepal</p>
                         </div>
-                        <div>
-                            <label for="phone"> Phone Number*</label>
-                            <input type="text" placeholder="Your Phone Number" id="phone" name="phone"
-                                class="w-full px-3 py-1 border border-gray-300 rounded">
-                        </div>
-                        <div class="col-span-2">
-                            <label for="wnum">Whatsapp Number *</label>
-                            <input type="text" placeholder="Your Whatsapp Number" id="wnum" name="wphone"
-                                class="w-full px-3 py-1 border border-gray-300 rounded">
-                        </div>
-                        <div class="col-span-2">
-                            <label for="message">Your Message*</label>
-                                <textarea placeholder="How can we help you?" id="message" rows="4" name="message"
-                                class="w-full px-3 py-2 border border-gray-300 rounded"></textarea>
+                    </div>
+                    
+                    <div class="flex gap-4">
+                        <span class="text-orange-400 text-[25px]"><i class="fa-solid fa-phone text-[orangered]"></i></span>
+                        <div class="text-white">
+                            <h3 class="text-lg font-semibold">Phone Number</h3>
+                            <a href="" class="text-sm">+977-9851083578</a>
                         </div>
                     </div>
 
-                </form>
+                    <div class="flex gap-4">
+                        <span class="text-orange-400 text-[25px]"><i class="fa-brands fa-whatsapp text-[orangered]"></i></span>
+                        <div class="text-white">
+                            <h3 class="text-lg font-semibold">Whatsapp</h3>
+                            <a href="" class="text-sm">+977-9851083578</a>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-4">
+                        <span class="text-orange-400 text-[25px]"><i class="fa-solid fa-envelope text-[orangered]"></i></span>
+                        <div class="text-white">
+                            <h3 class="text-lg font-semibold">Email Address</h3>
+                            <a href="" class="text-sm">info@alvn.edu.np</a>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-4">
+                        <span class="text-orange-400 text-[25px]"><i class="fa-solid fa-globe text-[orangered]"></i></span>
+                        <div class="text-white">
+                            <h3 class="text-lg font-semibold">Website</h3>
+                            <a href="" class="text-sm">www.alvn.edu.np</a>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-4">
+                        <span class="text-orange-400 text-[25px]"><i class="fa-regular fa-clock text-[orangered]"></i></span>
+                        <div class="text-white">
+                            <h3 class="text-lg font-semibold">Office Hours</h3>
+                            <p class="text-sm">Sun - Fri: 10:00 AM - 5:00 PM</p>
+                        </div>
+                    </div>
+                    <div class="h-[60px] py-[20px]">
+                        <span><a href="" class="bg-[#0BDA51] rounded-3xl text-white  px-5 py-3 text-center text-[20px] hover:shadow-lg hover:translate-y-[2px] duration-[100] font-semibold"><i class="fa-brands fa-whatsapp text-white"></i>Chat On Whatsapp</a></span>
+                     </div>  
+                </div>
             </div>
         </div>
-        
-    
-</body>
+    </div>
 
+    <section class="w-full">
+        <div class="h-[550px] py-[50px] px-[100px] shadow-lg pb-[80px]">
+            <iframe class="w-full h-full rounded-2xl" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.8073478618957!2d85.28177051506186!3d27.693812082796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19b5dc4c5b7f%3A0x7a4b0b0f12b6c9c0!2sKalanki%2C%20Kathmandu%2044600!5e0!3m2!1sen!2snp!4v1699999999999!5m2!1sen!2snp"></iframe>
+        </div>
+    </section>
+
+
+    <div class="h-[350px] w-full bg-[#1E2952]">
+
+        <div class="grid grid-cols-4 gap-[60px] w-[85%] mx-auto pt-[60px]">
+            <div>
+                <h2 class="text-white text-[25px] text-start pb-2 font-semibold">About ALVN</h2>
+                <p class="text-[#C4C4C4] text-md text-start">ALVN Education Consultancy is your trusted partner for
+                    studying abroad. We provide comprehensive guidance and support to help students achieve their dreams
+                    of international education.</p>
+                <div class="flex flex-row text-white text-[20px] pt-[16px] gap-[30px] items-center ">
+                    <i class="fa-brands fa-facebook rounded-full bg-[navy] items-center "></i>
+                    <i class="fa-brands fa-instagram bg-[navy] rounded-full items-center "></i>
+                    <i class="fa-brands fa-linkedin bg-[navy] rounded-full items-center "></i>
+                    <i class="fa-brands fa-youtube bg-[navy] rounded-full items-center "></i>
+                </div>
+            </div>
+
+
+            <div>
+                <h2 class="text-white text-[25px] text-start pb-2 font-semibold">Quick Links</h2>
+                <div class="text-[#C4C4C4] text-md flex flex-col gap-[9px] font-semibold">
+                    <span class="hover:translate-x-[6px] duration-250"><i class="fa-solid fa-angle-right text-[orangered]"></i><a href="" class="hover:text-[orangered]">Home</a></span>
+                    <span class="hover:translate-x-[6px] duration-250"><i class="fa-solid fa-angle-right text-[orangered]"></i><a href="" class="hover:text-[orangered]">About Us</a></span>
+                    <span class="hover:translate-x-[6px] duration-250"><i class="fa-solid fa-angle-right text-[orangered]"></i><a href="" class="hover:text-[orangered]">Services</a></span>
+                    <span class="hover:translate-x-[6px] duration-250"><i class="fa-solid fa-angle-right text-[orangered]"></i><a href="" class="hover:text-[orangered]">Blog</a></span>
+                    <span class="hover:translate-x-[6px] duration-250"><i class="fa-solid fa-angle-right text-[orangered]"></i><a href="" class="hover:text-[orangered]">Contact</a></span>
+                </div>
+            </div>
+
+
+            <div>
+                <h2 class="text-white text-[25px] text-start pb-2 font-semibold">Study Destinations</h2>
+                <div class="text-[#C4C4C4] text-md gap-[10px] flex flex-col font-semibold">
+                    <span class="hover:translate-x-[6px] duration-250"><i class="fa-solid fa-angle-right text-[orangered]"></i><a href="" class="hover:text-[orangered]">Australia</a></span>
+                    <span class="hover:translate-x-[6px] duration-250"><i class="fa-solid fa-angle-right text-[orangered]"></i><a href="" class="hover:text-[orangered]">United Kingdom</a></span>
+                    <span class="hover:translate-x-[6px] duration-250"><i class="fa-solid fa-angle-right text-[orangered]"></i><a href="" class="hover:text-[orangered]">USA</a></span>
+                    <span class="hover:translate-x-[6px] duration-250"><i class="fa-solid fa-angle-right text-[orangered]"></i><a href="" class="hover:text-[orangered]">Canada</a></span>
+                    <span class="hover:translate-x-[6px] duration-250"><i class="fa-solid fa-angle-right text-[orangered]"></i><a href="" class="hover:text-[orangered]">Japan</a></span>
+                </div>
+            </div>
+
+
+            <div>
+                <h2 class="text-white text-[25px] text-start pb-2 font-semibold">Contact Info</h2>
+                <div class="flex flex-col text-md text-[#C4C4C4] gap-[10px]">
+                    <span><i class="fa-solid fa-location-dot text-[orangered]"></i>  <a href="">Kalanki-14, Kathmandu,
+                            Nepal</a></span>
+                    <span><i class="fa-solid fa-phone text-[orangered]"></i>  <a href="">+977-9851083578</a></span>
+                    <span><i class="fa-brands fa-whatsapp text-[orangered]"></i>  <a href="">+977-9851083578</a></span>
+                    <span><i class="fa-solid fa-envelope text-[orangered]"></i>   <a href="">info@alvn.edu.np</a></span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="h-[80px] w-full bg-[#132B39]">
+        <div class="text-center">
+            <p class="text-[#C4C4C4] text-[18px] p-[25px] ">© 2024 ALVN Education Consultancy. All Rights Reserved. |
+                www.alvn.edu.np
+            </p>
+        </div>
+    </div>
+
+        <a href="" class="fixed bottom-[95px] right-[40px] text-[25px] bg-[#0E3386] text-white hover:bg-[#C0392B] duration-900 h-[50px] w-[50px] flex justify-center items-center rounded-full">
+            <i class="fa-solid fa-angle-up"></i>
+        </a>
+
+        <a href="https://www.whatsapp.com/" target="_blank" class="fixed bottom-[35px] right-[38px] text-[35px] bg-[#55DD33] text-white h-[50px] w-[50px] flex justify-center items-center rounded-full">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+</body>
 </html>
